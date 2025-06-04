@@ -24,3 +24,6 @@ pnpm-debug.log*
 .DS_Store
 
 node_modules
+
+#netlify
+.netlify/v1/config.json
