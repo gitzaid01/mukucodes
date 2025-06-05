@@ -1,104 +1,215 @@
 <h1 align="center">
- Astro Theme OpenBLOG
+Mukucodes
 </h1>
-
 <div align="center">
 
-<img src="public/project.jpg" alt="Screenshot" />
+<img src="public/project.png" alt="Screenshot" />
 
 <hr/>
+
+<h3 align="center">
+Leave a star if you like this project!
+</h3>
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanielcgilibert%2Fblog-template)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danielcgilibert/blog-template)
 
 </div>
 
-## 💻 Demo
+##  Table Of Contents
 
-Échale un vistazo a la [Demo](https://blog-template-gray.vercel.app/), alojada en Vercel
+1. [Demo](#-Demo)
+2. [CMS](#-Tina-CMS)
+3. [Features](#-Features)
+4. [Roadmap](#-Roadmap)
+5. [Stack](#-Stack)
+6. [Running locally](#-Running-Locally)
+7. [Configure](#-Configure)
+8. [Categories](#-Adding-a-category)
+9. [Posts](#-Adding-a-post)
+10. [Draft](#-Activating-draft-mode)
+11. [FrontMatter](#-Frontmatter)
+12. [CLI](#-Commands)
+13. [Contributors](#-Contributors)
 
-## ⚙️ Stack
+##   Demo
 
-- [**ASTRO** + **Typescript**](https://astro.build/) - Astro es el framework web todo en uno diseñado para la velocidad.
-- [**Tailwind CSS** + **Tailwind-Merge** + **clsx**](https://tailwindcss.com/) - Tailwind CSS es un framework de CSS de tipo utility-first.
-- [**Tabler Icons**](https://tabler-icons.io/i/) - Iconos SVG de código abierto..
+Check out the [Demo](https://www.mukucodes.com/), hosted on Netlify
+<br/>
 
-## ✅ Features:
+https://www.mukucodes.com/
+## 🦙 Tina CMS
 
-- ✅ Estilo mínimo
-- ✅ Compatible con dispositivos móviles
-- ✅ Rendimiento 100/100 en Lighthouse
-- ✅ Amigable con SEO mediante URLs canónicas y datos OpenGraph
-- ✅ Soporte para sitemap
-- ✅ Soporte para feeds RSS
-- ✅ Soporte para Markdown y MDX
-- ✅ Resaltado de sintaxis
-- ✅ Optimización de imágenes
-- ✅ Tabla de contenidos
-- ✅ Modo oscuro
-- ✅ Tiempo de lectura
-- ✅ [Pagefind](https://pagefind.app/) static search library integration
-- ✅ Posts relacionados
-- ✅ Compartir posts (Linkedin, twitter)
+By default, this template comes pre-configured with Tina CMS.
 
-## 🛣️ Roadmap
+Now you can create your posts directly from the CMS without the need to do it manually.
 
-- ❌ Botón para copiar código
+If you decide to use Tina, it's not necessary to add any properties to the Markdown files, Tina does it automatically.
 
-## 🚀 Getting Started
+Example:
 
-**Extensiones recomendadas para VSCode:**
+https://www.mukucodes.com/
+
+The documentation for Tina CMS can be found [here](https://tina.io/docs/)
+
+> Tina is completely optional, and you can remove it, and it will still function in the same way.
+
+##  Features:
+
+<p align="center">
+  <a href="https://pagespeed.web.dev/analysis/https-blog-template-gray-vercel-app/7ovjfewos9?form_factor=mobile">
+    <img width="510" alt="openblog Lighthouse Score" src="public/openblog-lighthouse-score.svg">
+  <a>
+</p>
+    
+-  Minimal styling
+-  Mobile responsive
+-  100/100 Lighthouse performance
+-  SEO-friendly with canonical URLs and OpenGraph data
+-  Sitemap support
+-  RSS Feed support
+-  Markdown & MDX support
+-  Syntax highlighting
+-  Image optimization
+-  Table of contents
+-  Dark mode
+-  Reading Time
+-  [Pagefind](https://pagefind.app/) static search library integration
+-  Related posts
+-  Share posts (Linkedin, twitter)
+-  Draft mode
+-  Copy code block
+-  CMS in the repository (Tina CMS)
+-  Pagination
+-  ViewTransition (new)
+-  Disqus comments (new)
+
+##  Roadmap
+
+-  Add post author
+-  Add customization with colors
+-  Add filters for reading time, date...
+-  More sharing options
+-  Internationalization (i18n)
+
+##  Stack
+
+- [**ASTRO** + **Typescript**](https://astro.build/) - Astro is the all-in-one web framework designed for speed.
+- [**Tailwind CSS** + **Tailwind-Merge** + **clsx**](https://tailwindcss.com/) - Tailwind CSS is a utility-first CSS framework.
+- [**Tabler Icons**](https://tabler-icons.io/i/) - A open source SVG icons.
+- [**Eslint**](https://eslint.org/) - ESLint is an open source project that helps you find and fix problems.
+- [**Prettier**](https://prettier.io/) - Code formatter.
+- [**Search Library**](https://pagefind.app/) - Static search library integration.
+- [**Motion**](https://motion.dev/) - Motion One is the smallest fully-featured animation library for the web.
+- [**Tina CMS**](https://tina.io/) - CMS.
+
+##  Running Locally
+
+**Recommended extensions for VSCode:**
 
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss).
 - [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode).
 
-1. Clona o haz un [fork](https://github.com/danielcgilibert/blog-template/fork) del repositorio:
+1. Clone or [fork](https://github.com/mukucodes/mukucodes.git/fork) the repository:
 
 ```bash
-git@github.com:danielcgilibert/blog-template.git
+https://github.com/mukucodes/mukucodes.git
 ```
 
-2. Instala las dependencias:
+2. Install dependencies:
 
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
-3. Ejecuta el servidor de desarrollo:
+3. Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm start
 ```
 
-## 🗂️ Estructura del proyecto
+##  Configure
 
-```
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   ├── data/
-│   ├── utils/
-│   ├── styles/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+- Edit the configuration file **src/data/site.config.ts** for the basic blog metadata.
+- Modify the files in the **/public** folder:
+  - favicon
+  - robots.txt -> update the Sitemap url to your own domain
+  - open-graph -> the open-graph is the image that will be displayed when sharing the blog link. For posts, the preview image is the post cover.
+- Edit the social networks in **src/data/links.ts**, change the URL to your social network.
+
+##  Adding a category
+
+To add a new category to your blog, simply go to the src/data/categories.ts file and add it to the array.
+
+Example:
+
+```ts
+export  const  CATEGORIES  =  [
+'JavaScript',
+'React',
+'new category here'  <---
+]  as  const
 ```
 
-## 👋 Contribuciones
+>  Zod checks whether the category is not correctly written or does not exist in the properties of the markdown document. **It will throw an error when building the application.** 
+
+##  Adding a post
+
+Adding a post is as simple as adding a .md or .mdx file to the blog folder at the path **src/content/blog**. The filename will be used to create the slug/URL of the page.
+
+For example, if you have a file named **jsx-and-react.md**, it will be transformed into: **http://yourdomain.com/post/jsx-and-react/**
+
+##  Activating draft mode
+
+To activate draft mode, add the property **draft: true** to the file, and it will no longer be displayed on the blog.
+
+Example :
+
+```ts
+title: MacBook Pro 2022
+description: 'The new MacBook Pro 2022 is here. With the Apple M2 chip, a new design, and more, the new MacBook Pro is the best laptop Apple has ever made.'
+pubDate: 'Jul 02 2022'
+heroImage: '../../assets/bg.jpg'
+category: 'Category 1'
+tags: ['JavaScript', 'css', 'HTML5', 'GitHub']
+draft: true <---
+```
+
+##  Frontmatter
+
+## Required properties:
+
+- Title
+- Description
+- pubDate
+- heroImage (post cover)
+- category (Choose a category from src/data/categories.ts)
+
+## Optional properties:
+
+- draft (no need to include it, by default it's false)
+- tags
+
+> The schema for posts is located at src/content/config.ts. You can modify any parameter, for example, by adding a maximum of 80 characters for titles: title: z.string().max(80).
+> For more information, refer to the zod documentation.
+
+##  Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                 | Action                                                                                                                           |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| `pnpm install`          | Installs dependencies                                                                                                            |
+| `pnpm run dev`          | Starts local dev server at `localhost:3000`                                                                                      |
+| `pnpm run build`        | Build your production site to `./dist/`                                                                                          |
+| `pnpm run preview`      | Preview your build locally, before deploying                                                                                     |
+| `pnpm run format:check` | Check code format with Prettier                                                                                                  |
+| `pnpm run format`       | Format codes with Prettier                                                                                                       |
+| `pnpm run sync`         | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
+| `pnpm run lint`         | Lint with ESLint                                                                                                                 |
+
+<!-- ##  Contributors
 
 <a href="https://github.com/danielcgilibert/blog-template/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danielcgilibert/blog-template" />
-</a>
+</a> -->
