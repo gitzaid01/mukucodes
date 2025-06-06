@@ -121,8 +121,13 @@ https://github.com/mukucodes/mukucodes.git
 ```bash
 npm install
 ```
+3. Install dependencies:
 
-3. Run the development server:
+```bash
+npx astro build
+```
+
+4. Run the development server:
 
 ```bash
 npm start
