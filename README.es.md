@@ -124,7 +124,7 @@ npm install
 3. Install dependencies:
 
 ```bash
-npx astro build
+npx astro build 
 ```
 
 4. Run the development server:
